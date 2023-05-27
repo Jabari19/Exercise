@@ -45,7 +45,7 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-/* the styles for the Naveigation  */
+/* the styles for the Navigation  */
 
 #nav_menu ul {
 	position: relative;
@@ -70,7 +70,7 @@ header img {
 	color: yellow;
 }
 
-/*In order to position abslote works, we should st its parent to postion reletive */ 
+/*In order to position abslote work, we should begin with its parent to postion reletive */ 
 #nav_menu ul ul {
     display: none;
     position: absolute; 
@@ -82,7 +82,7 @@ header img {
 #nav_menu ul li:hover > ul {
 	display: block;
 }
-/* this line of code ( #nav_menu > ul:after )reste the first child of parent<nav> which is  first <ul> */
+/* this line of code ( #nav_menu > ul:after )restart the first child of parent<nav> which is  first <ul> */
 #nav_menu > ul:after {
     content: "";
     display: block;
