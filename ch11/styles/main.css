@@ -12,9 +12,11 @@ h2 {
 }
 img {
     margin-bottom: .5em;
-    content: url("images/students_750.png");
-    content: url("images/students_550.png");
-    content: url("images/students_400.png");
+    background: url("images/students_750.png");
+    background: url("images/students_550.png");
+    background: url("images/students_400.png"); 
+
+
 }
 p {
     line-height: 1.3;
