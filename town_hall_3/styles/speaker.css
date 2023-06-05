@@ -185,6 +185,14 @@ footer {
 	clear: both;
 
 }
+@font-face{
+	font-family: san;
+	src: url("HARNGTON.TTF");
+
+}
+h2{
+	font-family: san;
+}
 
 footer p {
 	text-align: center;
