@@ -47,12 +47,12 @@ header img {
 }
 /* the styles for the form */
 fieldset {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding-top: .5em;
+    
+    margin-bottom: 0.5em;
+    padding: .5em 1em;
 }
 legend {
-    color: #931420;
+    color: #000000;
     font-weight: bold;
     font-size: 85%;
     margin-bottom: .5em;
@@ -71,13 +71,21 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid red;
+	border: 2px solid #ff0000;
 }
 input:valid {
 	border: 1px solid black;
 }
 input:invalid {
+	border: 2px solid #ff0000;
 	box-shadow: none;
+}
+#payment-method label{
+	float: none;
+}
+#payment-method label{
+	width: auto;
+	margin-left: 3em;
 }
 br {
     clear: both;
