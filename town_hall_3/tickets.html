@@ -59,20 +59,27 @@
 
 				<fieldset>
 					<legend>Ordering Information</legend>
-					<label for="membership_type">Order Type:</label>
+					<label for="order_type">Order Type:</label>
 					<select name="membership_type" id="membership_type">
 						<option value="member">Member Package</option>
 						<option value="donor">Donor Package</option>
 						<option value="single">Single Package</option>
 					</select><br>
 
-					<label for="tickets">Number of theTickets:</label>
-					<input type="number" name="tickets" id="tickets" value="2" min="1" max="4"
-						placeholder="from 1 to 4"><br>
+					<label for="tickets">Number of the Tickets:</label>
+					<input type="text" name="tickets" id="tickets" placeholder="Number of Single Tickets"><br>
 				</fieldset>
+				<fieldset id="payment-method">
+					<legend>Payment Method</legend>
+					<input type="radio" name="payment-method" id="method1" value="thin" checked>
+					<label for="Method1">Bill Me:</label>
+					<input type="radio" name="payment-method" id="method2" value="deep">
+					<label for="Method2">Credit Cards:</label><br>
+				</fieldset>
+
 				<fieldset id="Payment Method">
 					<legend>Payment Method</legend>
-					<input type="radio" name="Payment Method" id="method1" required><br>
+					<input type="radio" name="Payment Method" id="method3" required><br>
 				</fieldset>
 
 

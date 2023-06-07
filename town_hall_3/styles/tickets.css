@@ -83,7 +83,7 @@ input:invalid {
 #payment-method label{
 	float: none;
 }
-#payment-method label{
+#payment-method input{
 	width: auto;
 	margin-left: 3em;
 }
