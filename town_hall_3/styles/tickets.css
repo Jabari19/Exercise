@@ -87,6 +87,12 @@ input:invalid {
 	width: auto;
 	margin-left: 3em;
 }
+#exp-month{
+width: 7em;
+}
+#exp-year{
+width: 5em;
+}
 br {
     clear: both;
 }

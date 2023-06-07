@@ -60,7 +60,7 @@
 				<fieldset>
 					<legend>Ordering Information</legend>
 					<label for="order_type">Order Type:</label>
-					<select name="membership_type" id="membership_type">
+					<select name="membership_type" id="membership_Type">
 						<option value="member">Member Package</option>
 						<option value="donor">Donor Package</option>
 						<option value="single">Single Package</option>
@@ -77,32 +77,43 @@
 					<label for="Method2">Credit Cards:</label><br>
 				</fieldset>
 
-				<fieldset id="Payment Method">
-					<legend>Payment Method</legend>
-					<input type="radio" name="Payment Method" id="method3" required><br>
+				<fieldset>
+					<legend>Credit Card Informmation</legend>
+					<label for="card-type">Card Type:</label>
+					<select name="card-type" id="card-type">
+						<option value="visa">Visa</option>
+						<option value="discover">Discover</option>
+						<option value="master">Mastercard</option>
+					</select>
+					<label for="cc-num">Card Number:</label>
+					<input type="text" name="cc-num" id="cc-num" placeholder="16 digits"
+								pattern="\d{16}" title="credit card number is 16digits"><br>
+					<label for="exp-month">Expiration Date:</label>
+					<select name="exp-month" id="exp-month">
+						<option value="jan">January</option>
+						<option value="feb">Feb</option>
+						<option value="mar">March</option>
+						<option value="may">May</option>
+						<option value="jun">june</option>
+						<option value="jul">July</option>
+						<option value="aug">Aug</option>
+						<option value="sep">Sept</option>
+						<option value="oct">Oct</option>
+						<option value="nov">Nov</option>
+						<option value="dec">Dec</option>
+					</select>
+
+					<select name="exp-year" id="exp-year">
+						<option value="23">2023</option>
+						<option value="24">2024</option>
+						<option value="25">2025</option>
+						<option value="26">2026</option>
+						<option value="27">2027</option>
+						<option value="28">2028</option>
+					</select>
 				</fieldset>
-
-
-				<label for="membership_type">Expire-Month:</label>
-
-				<select name="Expiration Date1" id="Expire Date1">
-					<option value="member">January</option>
-					<option value="donor">Feb</option>
-					<option value="single">March</option>
-					<option value="member">May</option>
-					<option value="donor">june</option>
-					<option value="single">July</option>
-					<option value="member">Aug</option>
-					<option value="donor">Sept</option>
-					<option value="single">Oct</option>
-					<option value="member">Nov</option>
-					<option value="donor">Dec</option>
-
-				</select><br>
-
 				<fieldset id="buttons">
-
-					<legend>Submit Your Orders</legend>
+					<legend>Submit your Orders</legend>
 					<label>&nbsp;</label>
 					<input type="submit" id="submit" value="Submit">
 					<input type="reset" id="reset" value="Reset Fields"><br>
